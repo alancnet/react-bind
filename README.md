@@ -3,7 +3,7 @@ Functional reactive 2-way binding.
 
 ## TL;DR:
 
-```
+```jsx
 import React, { Component } from 'react';
 import { Binder } from 'react-bind';
 
