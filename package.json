@@ -1,0 +1,28 @@
+{
+  "name": "react-bind",
+  "version": "0.0.1",
+  "description": "Functional reactive 2-way binding",
+  "main": "react-bind.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alancnet/react-bind.git"
+  },
+  "keywords": [
+    "react",
+    "2-way",
+    "bind"
+  ],
+  "author": "alancnet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alancnet/react-bind/issues"
+  },
+  "homepage": "https://github.com/alancnet/react-bind#readme",
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "obj-parse": "^0.3.0"
+  }
+}
