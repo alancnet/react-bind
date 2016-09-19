@@ -8,10 +8,6 @@ import React, { Component } from 'react';
 import { Binder } from 'react-bind';
 
 class TextBox extends Component {
-  constructor() {
-    super();
-    this.bind = new Binder(this).bind;
-  }
   render() {
     return <input type="text" value={this.props.model.state || ""} 
       onChange={ev => this.props.model.set(ev.target.value)} />
